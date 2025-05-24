@@ -31,3 +31,11 @@
     margin: 15px;
     margin-top: 55px;
 }
+.tool {
+    width: 100%;
+    background-color: #2d3436;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}

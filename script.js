@@ -23,3 +23,8 @@ const saveNotes = () => {
         localStorage.setItem("notes", JSON.stringify(data))
     }
 }
+
+
+//  <div class="note">
+// <div class="tool">
+//     <i class="fas fa-save"></i>

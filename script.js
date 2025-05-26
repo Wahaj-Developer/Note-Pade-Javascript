@@ -13,3 +13,7 @@ const saveNotes = () => {
     const data = [];
     notes.forEach(
             (note) => {
+                data.push(note.value)
+            }
+        )
+        // console.log(data)

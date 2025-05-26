@@ -7,3 +7,6 @@ addBtn.addEventListener(
         addNote()
     }
 )
+const saveNotes = () => {
+    const notes = document.querySelectorAll(".note textarea");
+    console.log(notes);

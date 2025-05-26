@@ -20,3 +20,6 @@ const saveNotes = () => {
     if (data.length === 0) {
         localStorage.removeItem("notes")
     } else {
+        localStorage.setItem("notes", JSON.stringify(data))
+    }
+}

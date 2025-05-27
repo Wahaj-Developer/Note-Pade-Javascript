@@ -25,6 +25,9 @@ const saveNotes = () => {
 }
 
 
+    note.querySelector(".save").addEventListener(
+        "click",
+
 //  <div class="note">
 // <div class="tool">
 //     <i class="fas fa-save"></i>

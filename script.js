@@ -40,7 +40,9 @@ const addNote = (text = "") => {
     <div class="tool">
          <i class="save fas fa-save"></i>
          <i class="trash fas fa-trash"></i> 
-
+    </div>
+    <textarea>${text}</textarea>
+    `;
 
 
 

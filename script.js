@@ -44,6 +44,8 @@ const addNote = (text = "") => {
     <textarea>${text}</textarea>
     `;
 
+        note.querySelector(".trash").addEventListener(
+        "click",
 
 
 

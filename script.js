@@ -32,3 +32,18 @@ const saveNotes = () => {
 // </div>
 // <textarea></textarea>
  // </div>
+
+const addNote = (text = "") => {
+    const note = document.createElement("div");
+    note.classList.add("note")
+
+
+
+
+
+
+
+
+
+
+    

@@ -46,7 +46,11 @@ const addNote = (text = "") => {
 
         note.querySelector(".trash").addEventListener(
         "click",
-
+        function() {
+            note.remove()
+            saveNotes()
+        }
+    )
 
 
 

@@ -54,7 +54,10 @@ const addNote = (text = "") => {
             saveNotes()
         }
     )
-
+        function() {
+            saveNotes()
+        }
+    )
 
 
 

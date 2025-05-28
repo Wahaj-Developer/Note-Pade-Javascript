@@ -19,4 +19,8 @@ Uses DOM manipulation to dynamically create notes.
 
 Stores notes as an array of strings in localStorage.
 
-Event listeners handle save/delete/focusout actions.
+# Event listeners handle save/delete/focusout actions.
+Why It’s Useful
+✅ No dependencies (pure vanilla JS)
+✅ Perfect for learning DOM & localStorage
+✅ Easily extendable (add tags, colors, or sync later)

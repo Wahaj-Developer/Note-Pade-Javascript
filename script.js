@@ -79,5 +79,8 @@ const addNote = (text = "") => {
                 (lsNote) => {
                     addNote(lsNote)
                 }
+ )
+         }
 
-                    
+    }
+)()                 

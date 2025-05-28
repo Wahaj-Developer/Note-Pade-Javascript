@@ -69,6 +69,9 @@ const addNote = (text = "") => {
     saveNotes()
 }
 
-
+(
+    function() {
+        const lsNotes = JSON.parse(localStorage.getItem("notes"));
+        if (lsNotes === null) {
 
     

@@ -75,4 +75,8 @@ const addNote = (text = "") => {
         if (lsNotes === null) {
             addNote()
         } else {
-    
+                lsNotes.forEach(
+                (lsNote) => {
+
+
+                    

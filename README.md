@@ -13,3 +13,10 @@ Deleting a note
 # Exiting a textarea (focusout)
 ✔ Delete Notes – Remove notes with the 🗑️ (trash) icon.
 ✔ Persistent Storage – Notes reload when you revisit the page.
+
+# How It Works
+Uses DOM manipulation to dynamically create notes.
+
+Stores notes as an array of strings in localStorage.
+
+Event listeners handle save/delete/focusout actions.

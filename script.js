@@ -65,6 +65,10 @@ const addNote = (text = "") => {
         }
     )
 
+    main.appendChild(note);
+    saveNotes()
+}
+
 
 
     
